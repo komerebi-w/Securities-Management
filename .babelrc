@@ -1,0 +1,17 @@
+{
+  "presets": [
+    ["env", { "modules": false }],
+    "stage-3"
+  ],
+  //下面plugins 配置es6兼容插件
+  "plugins": [
+    "syntax-dynamic-import",
+    [
+      "component",
+      {
+        "libraryName": "element-ui",
+        "styleLibraryName": "theme-chalk"
+      }
+    ]
+  ]
+}
